@@ -1,0 +1,355 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+.head{
+    background-color: rgb(31, 94, 94);
+    height: 70px;
+    position: sticky;
+    top: 0;
+}
+.head span{
+    float: left;
+    font-size: 40px;
+    padding: 0px 0 0 20px;
+    font-weight: bold;
+    color: rgb(244, 248, 9);
+}
+.head ul{
+    display: flex;
+    justify-content: flex-end;
+}
+.head ul li{
+    list-style-type: none;
+    padding: 22px 20px 0 10px;
+    font-size: 19px;
+}
+.head ul li a{
+    text-decoration: none;
+
+    color: rgb(255, 255, 255);
+    
+}
+.head ul li a:hover{
+    color: rgb(30, 207, 39);
+   text-decoration:underline;
+   text-decoration-color: rgb(170, 3, 120);
+   
+}
+#home{
+ background-image: url(/images/Hotel.jpg);
+ background-repeat: no-repeat;
+ background-size: 100%;
+ background-position: 0;
+ height: 600px;
+}
+#home span{
+   display: flex;
+   justify-content: center;
+  
+}
+#home span img{
+    width: 300px;
+   
+}
+#home h1{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(221, 208, 25);
+}
+#home p{
+    text-align: center;
+    padding: 20px 0 0 0;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+#special{
+    
+    height: 950px;
+    background-color: rgb(225, 235, 236);
+}
+#special h2{
+    padding: 10px 0 0 10px;
+    font-size: 30px;
+}
+#special .images{
+   
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-radius: 50px;
+    background-color: rgb(48, 28, 44);
+    margin: 30px 50px 0 50px;
+    box-shadow: 10px 10px rgb(54, 185, 152);
+}
+#special .images div{
+   
+    height: 250px;
+    width: 20%;
+    margin: 50px;
+    box-shadow: 10px 10px  #75c93d;
+    background-image: url(/images/chicken.jpg);
+    background-repeat: no-repeat;
+    background-size: 340px;
+    background-position: -40px;
+}
+#special .images div:hover{
+    opacity: 0.6;
+}
+#special .images .im1{
+    background-image: url(/images/bbq.jpg);
+    background-repeat: no-repeat;
+    background-size: 375px;
+    background-position: -40px;
+}
+#special .images .im2{
+    background-image: url(/images/fish.jpg);
+    background-repeat: no-repeat;
+    background-size: 375px;
+    background-position: -40px;
+}
+#special .images .im3{
+    background-image: url(/images/fry.jpg);
+    background-repeat: no-repeat;
+    background-size: 450px;
+    background-position: 0px;
+}
+#special .images .im4{
+    background-image: url(/images/parotta.jpg);
+    background-repeat: no-repeat;
+    background-size: 375px;
+    background-position: -30px;
+}
+#special .images .im5{
+    background-image: url(/images/juice);
+    background-repeat: no-repeat;
+    background-size: 400px;
+    background-position: -80px;
+}
+.images div img{
+   
+    border-radius: 10px;
+    filter: blur(0.5px);
+}
+#special .images div img:hover{
+    opacity: 0.5;
+
+}
+#special .images div a{
+    font-size: 0px;
+    color: black;
+
+}
+#special .items{
+    display: flex;
+    justify-content: space-around;
+   
+}
+#special .items a{
+    text-decoration: none;
+    padding: 30px 0 10px 0;
+    font-size: 28px;
+    color: rgb(5, 61, 15);
+}
+#special .items a:hover{
+    text-decoration: underline;
+    text-decoration-color: crimson;
+    color: rgb(119, 5, 100);
+   
+}
+#foodes{
+    height: 650px;
+    background-color: coral;
+}
+#foodes h2{
+    padding: 10px 0 0 20px;
+    font-size: 30px;
+}
+#foodes div {
+    margin: 30px 0 0 100px;
+      height: 500px;
+      width: 80%;
+      background-color: rgb(223, 208, 221);
+      border-radius: 30px;
+      box-shadow: 10px 10px rgb(21, 82, 100);
+}
+
+#foodes div p{
+    line-height: 30px;
+    text-align: justify;
+    text-indent: 100px;
+    letter-spacing: 1px;
+    padding:10px 30px 0 10px;
+    font-size: 19px;
+    color: rgb(3, 3, 3);
+}
+#foodes div ul li{
+    font-size: 20px;
+    text-align: justify;
+    padding: 5px 0 10px 300px;
+    list-style: none;
+}
+#contact{
+    height: 620px;
+   background-color: darkgrey;
+    padding:7px 0 0 5px;
+}
+#contact .add{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+#contact h2{
+    padding: 20px 0 0 20px;
+    color: rgb(5, 5, 5);
+}
+#contact .add div{
+    width: 30%;
+    height: 400px;
+    background:linear-gradient(rgb(107, 212, 107),rgb(12, 153, 146));
+    border-radius: 20px;
+    box-shadow:10px 10px rgb(243, 243, 243);
+}
+#contact .add div h3{
+    padding-top: 10px;
+    text-align: center;
+    font-size: 25px;
+}
+#contact .add div p{
+    text-align: center;
+    font-size: 20px;
+    padding: 40px 0 0 0;
+}
+#contact .add div i{
+         font-size: 17px;
+         padding:15px 0 0 20px;
+         color: rgb(24, 12, 94);
+}
+.add div i span{
+    padding-left: 5px;
+    color: rgb(239, 239, 248);
+}
+.add div a{
+    padding-left: 6px;
+    text-decoration: none;
+    color: rgb(239, 239, 248);
+}
+.add div a:hover{
+    color: rgb(17, 9, 138);
+    text-decoration: underline;
+}
+#contact div .one:hover{
+    padding: 10px;
+    box-shadow: 10px 10px rgb(19, 18, 18);
+}
+#contact .street1:hover{
+    padding: 10px;
+    box-shadow: 10px 10px rgb(14, 13, 13);
+}
+#contact .two:hover{
+    padding: 10px;
+    box-shadow: 10px 10px rgb(20, 20, 20);
+}
+#about{
+    background:linear-gradient(150deg,rgb(43, 114, 196),rgb(24, 138, 158));
+    height: 650px;
+}
+#about h1{
+    padding: 7px 0 0 10px;
+    
+}
+#about .we{
+    margin: 20px 0 0 0;
+    height: 500px;
+    width: 60%;
+   
+}
+#about .we h2{
+    color: rgb(7, 7, 7);
+    
+    padding: 30px 0 0 0;
+    text-align: center;
+}
+#about .we p{
+    text-indent: 80px;
+    padding: 20px 0 0 30px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    line-height: 30px;
+    text-align: justify;
+    font-size: 18px;
+    color: antiquewhite;
+}
+#about .feed{
+    text-align: center;
+    padding: 60px;
+}
+#about .feed h3{
+    
+    padding: 0 0 10px 0;
+    font-size: 25px;
+}
+.feed button{
+    margin: 10px 0 0 0;
+    width: 90px;
+    height: 30px;
+    background-color: #75c93d;
+    border: none;
+    color: rgb(0, 0, 0);
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: bold;
+}
+.feed button:hover{
+    background-color: #c93dbd;
+    color: rgb(253, 253, 253);
+}
+#about .icon{
+    display: flex;
+    justify-content:center ;
+}
+    #about .icon a{
+        padding: 10px;
+    width: 40px;
+    height: 30px;
+   margin: 0 10px 0 10px;
+    font-size: 30px;
+    text-decoration: none;
+    text-align: center;
+}
+#about .icon a:hover{
+    opacity: 0.3;
+}
+#about .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
